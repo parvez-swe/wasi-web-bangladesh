@@ -1,7 +1,7 @@
 import React from "react";
 export const Header = () => {
   return (
-    <div className="absolute md:fixed w-80 md:w-full h-96 md:h-14 rounded bg-black text-white grid grid-cols-1 md:grid-cols-4 items-center drop-shadow-lg  ">
+    <div className="absolute md:fixed w-80 md:w-full h-96 md:h-14 rounded bg-black opacity-75 text-white grid grid-cols-1 md:grid-cols-4 items-center drop-shadow-lg  ">
       <div className="logo grid grid-cols-1 mb-1">
         <div className=" relative top-0 left-1 mr-3 ">
           <div className="absolute top-0 right-1  md:hidden">cart</div>
