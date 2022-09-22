@@ -1,0 +1,14 @@
+got settings 
+=> developer settings 
+=> personal access token 
+=> generate new token
+=> add note
+=> select repo, delete repo, admin repo
+
+=> generate the token
+=> copy it 
+
+=>  npm run build 
+=> in vercel add project => import file from github
+
+=> deoploy
