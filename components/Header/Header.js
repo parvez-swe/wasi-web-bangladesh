@@ -26,12 +26,12 @@ export const Header = () => {
         <ul
           className={`${
             !showBar ? "linksMobile" : "linksMobile  linksMobileHideNav"
-          } md:linksForDesktop`}
+          } `}
         >
-          <li className="link">Home</li>
-          <li className="link">Contact</li>
-          <li className="link">About</li>
-          <li className="link">Blog</li>
+          <li className="link" onClick={clickHandler}>Home</li>
+          <li className="link" onClick={clickHandler}>Contact</li>
+          <li className="link" onClick={clickHandler}>About</li>
+          <li className="link" onClick={clickHandler}>Blog</li>
         </ul>
       </div>
     </>

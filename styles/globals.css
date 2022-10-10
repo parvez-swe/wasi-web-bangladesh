@@ -5,15 +5,15 @@
 @layer components {
   
   .linksMobile {
-    @apply flex flex-col w-full bg-black items-center absolute md:fixed left-0 top-20 ;
+    @apply flex flex-col w-full bg-black items-center absolute left-0 top-20 md:sticky md:top-0 md:w-min md:flex-row transition-all duration-700;
   }
   .linksMobileHideNav{
     @apply left-[-100%];
   }
   .linksForDesktop{
-    @apply flex flex-row justify-between sticky top-0 w-min;
+    @apply flex flex-row justify-between ;
   }
   .link{
-    @apply px-5;
+    @apply flex  px-5 cursor-pointer hover:bg-slate-800 ;
   }
 }
