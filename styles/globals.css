@@ -5,7 +5,7 @@
 @layer components {
   
   .linksMobile {
-    @apply flex flex-col w-full bg-black items-center absolute left-0 top-20 md:sticky md:top-0 md:w-min md:flex-row transition-all duration-700;
+    @apply flex flex-col w-full py-5 bg-black items-center absolute left-0 top-20 md:sticky md:top-0 md:w-min md:flex-row transition-all duration-700 ;
   }
   .linksMobileHideNav{
     @apply left-[-100%];
@@ -14,6 +14,6 @@
     @apply flex flex-row justify-between ;
   }
   .link{
-    @apply flex  px-5 cursor-pointer hover:bg-slate-800 ;
+    @apply flex py-2 px-5 cursor-pointer hover:text-slate-400 md:px-3;
   }
 }
